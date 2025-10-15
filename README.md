@@ -1,7 +1,13 @@
-# jaishree-portfolio
+<h1 align="center"> Portfolio - CSS + JavaScript + React + Vite + Mongo </h1>
 
-A personal portfolio website showcasing my skills, projects, certifications, and achievements. Designed with a focus on clean UI, smooth navigation, and responsive design to ensure a great experience across all devices.
+<p>Live Deployment</p>
 
-Built using **React + Vite**, with support for animations, dynamic routing, and modular styling. This project highlights my expertise in frontend and backend development, bot integration, and visual storytelling.
+🔗 *Visit Portfolio*: [https://jaishree-portfolio.vercel.app](https://jaishree-portfolio.vercel.app)  
 
-Feel free to explore, connect, and collaborate!
+## 📦 How to Run Locally
+
+```bash
+git clone https://github.com/jaishreeverma2004/jaishree-portfolio.git
+cd jaishree-portfolio
+npm install
+npm start
