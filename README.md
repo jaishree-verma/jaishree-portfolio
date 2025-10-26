@@ -2,7 +2,7 @@
 
 <p>Live Deployment</p>
 
-🔗 *Visit Portfolio*: [https://jaishree-portfolio.vercel.app](https://jaishree-portfolio.vercel.app)  
+🔗 *Visit Portfolio*: https://jaishree-portfolio-lilac.vercel.app/
 
 ## 📦 How to Run Locally
 
