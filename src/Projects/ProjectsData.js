@@ -132,60 +132,37 @@ export const projects = [
     
   
 
-  // Aesthetic Stopwatch
-  // {
-  //   id: 9,
-  //   title: 'Customizable, Aesthetic Stopwatch',
-  //   brief: 'My first ever JS Project: a web-based customizable stopwatch.',
-  //   tags: ['Web Dev', 'Design', 'Engineering'],
-  //   skills: ['HTML', 'CSS', 'Vanilla JavaScript', 'particles.js', 'FancyBox'],
-  //   thumbnail: '/aesthetic_stopwatch/1.png',
-  //   startDate: '2024-04',
-  //   endDate: '2024-05',
-  //   media: [
-  //     {
-  //       type: MEDIA_TYPES.IMAGE,
-  //       url: '/aesthetic_stopwatch/1.png',
-  //       caption: 'Aesthetic Stopwatch Interface on Laptop',
-  //       description: 'This stop watch project was my first ever web development project, and uses Vanilla J.S, & CSS.'
-  //     },
-  //     {
-  //       type: MEDIA_TYPES.IMAGE,
-  //       url: '/aesthetic_stopwatch/2.png',
-  //       caption: 'Stopwatch on Laptop Screen',
-  //       description: 'Image of the Aesthetic Stopwatch running on a an ipad..'
-  //     }
-  //   ],
-  //   links: {
-  //     github: 'https://github.com/danielh-hong/browser_stopwatch',
-  //     live: 'https://aesthetic-stopwatch.netlify.app/'
-  //   }
-  // },
+  //Aesthetic Stopwatch
+  {
+    id: 9,
+    title: 'Customizable, Aesthetic Stopwatch',
+    brief: 'My first ever JS Project: a web-based customizable stopwatch.',
+    tags: ['Web Dev', 'Design'],
+    skills: ['HTML', 'CSS', 'Vanilla JavaScript', 'particles.js', 'FancyBox'],
+    thumbnail: '/aesthetic_stopwatch/1.png',
+    startDate: '2025-09',
+    endDate: '2025-10',
+    media: [
+      {
+        type: MEDIA_TYPES.IMAGE,
+        url: '/aesthetic_stopwatch/1.png',
+        caption: 'Aesthetic Stopwatch Interface on Laptop',
+        description: 'This stop watch project was my first ever web development project, and uses Vanilla J.S, & CSS.'
+      },
+      {
+        type: MEDIA_TYPES.IMAGE,
+        url: '/aesthetic_stopwatch/2.png',
+        caption: 'Stopwatch on Laptop Screen',
+        description: 'Image of the Aesthetic Stopwatch running on a an ipad..'
+      }
+    ],
+    links: {
+      github: 'https://github.com/jaishree-verma/aesthetic_stopwatch',
+      live: 'https://aesthetic-stopwatch-860vsy99i-jaishreevermawork-9576s-projects.vercel.app'
+    }
+  },
 
   
 
-  // // OLd Personal Website
-  // {
-  //   id: 1,
-  //   title: 'Old Personal Website',
-  //   brief: 'My first personal portfolio website built with vanilla JS & CSS, made off of CodeWithSadee\'s template.',
-  //   tags: ['Web Dev', 'Design'],
-  //   skills: ['HTML', 'CSS', 'Vanilla JavaScript', 'particles.js', 'FancyBox'],
-  //   thumbnail: '/old_website/thumbnail.png',
-  //   startDate: '2024-02',
-  //   endDate: '2024-10',
-  //   media: [
-  //     {
-  //       type: MEDIA_TYPES.IMAGE,
-  //       url: '/old_website/thumbnail.png',
-  //       caption: 'Personal Website Homepage',
-  //       description: 'Screenshot of the homepage of my old personal website, highlighting the interactive particles background and navigation.',
-  //       thumbnail: '/old_website/thumbnail.png',
-  //     }
-  //   ],
-  //   links: {
-  //     github: 'https://github.com/danielh-hong/personal-portfolio',
-  //     live: 'https://daniel-hong.netlify.app/'
-  //   }
-  // }
+
 ];
