@@ -27,7 +27,7 @@ export const TAGS = [
 export const projects = [
   // Go Ticket
   {
-    id: 19,
+    id: 1,
     title: 'Go Ticket',
     brief: 'Go Ticket is a full-stack MERN application designed to revolutionize bus travel planning through a sleek, interactive interface and AI-driven automation.',
     tags: ['Web Development', 'AI', '3D Graphics', 'Full Stack', 'MERN'],
@@ -89,7 +89,7 @@ export const projects = [
 
   // College Survey
   {
-    id: 18,
+    id: 2,
     title: 'College_Survey',
     brief: 'College Survey is a full-stack MERN application powered by an intelligent Rasa chatbot and Hugging Face NLP. Designed for 250+ Engineering Science students, it helps them explore, compare, and visualize major preferences through natural conversation. With over 95% class participation and 1000+ unique visits, it delivers personalized insights at scale.-stack MERN application enabling 250+ Engineering Science students to track and visualize major preferences, achieving 95% class participation with 1000+ unique visits',
     tags: ['Web Development', 'Full Stack','Mern','Rasa Bot'],
@@ -134,7 +134,7 @@ export const projects = [
 
   //Aesthetic Stopwatch
   {
-    id: 9,
+    id: 3,
     title: 'Customizable, Aesthetic Stopwatch',
     brief: 'My first ever JS Project: a web-based customizable stopwatch.',
     tags: ['Web Dev', 'Design'],
