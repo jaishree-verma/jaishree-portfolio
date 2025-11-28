@@ -27,7 +27,7 @@ export const TAGS = [
 export const projects = [
   // Go Ticket
   {
-    id: 1,
+    id: 3,
     title: 'Go Ticket',
     brief: 'Go Ticket is a full-stack MERN application designed to revolutionize bus travel planning through a sleek, interactive interface and AI-driven automation.',
     tags: ['Web Development', 'AI', '3D Graphics', 'Full Stack', 'MERN'],
@@ -134,7 +134,7 @@ export const projects = [
 
   //Aesthetic Stopwatch
   {
-    id: 3,
+    id: 1,
     title: 'Customizable, Aesthetic Stopwatch',
     brief: 'My first ever JS Project: a web-based customizable stopwatch.',
     tags: ['Web Dev', 'Design'],
@@ -159,8 +159,31 @@ export const projects = [
     links: {
       github: 'https://github.com/jaishree-verma/aesthetic_stopwatch',
       live: 'https://aesthetic-stopwatch-860vsy99i-jaishreevermawork-9576s-projects.vercel.app'
-    }
+    },
   },
+  {
+    id: 2,
+    title: 'Docker Packagerised ML Model',
+    brief: 'Built a model packaging with Docker using Fast API & Stream lit for predictions using iris dataset',
+    tags: ['Python','Streamlit','Docker','ML Model','Web Dev'],
+    skills: ['HTML', 'CSS', 'Vanilla JavaScript', 'Python','Docker','ML Model'],
+    thumbnail: '/docker_model/thumbnail.png',
+    startDate: '2025-09',
+    endDate: '2025-11',
+    media:[
+      {
+        type: MEDIA_TYPES.IMAGE,
+        url:'/docker_model/thumbnail.png',
+        caption:'A trained ML Model containerised with Docker and deployed on streamlit',
+        description: 'This project demonstrates how to train a machine learning model using scikit-learn, serve predictions via a FastAPI endpoint, and containerize the entire app using Docker integrated with simple streamlit & requests UI for specific iris dataset. This API turns raw machine learning predictions into a simple, accessible service.'
+
+      },
+    ],
+    links:{
+      github: "https://github.com/jaishree-verma/docker-ml-api",
+      live: "https://docker-ml-api-frontend.streamlit.app/"
+    }
+  }
 
   
 

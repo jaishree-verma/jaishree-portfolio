@@ -10,7 +10,7 @@ const Resume = () => {
     degree: "B.Techin Artificial Intelligence & Machine Learning",
     location: "Kanpur, UP, India",
     duration: "Oct 2023 - Aug 27",
-    gpa: "6.8 gpa",
+    gpa: "7.44 gpa",
     achievements: [
       // "4 Star Hackerrank - Python , Java",
       // "Vice President - Bastion Club PSIT"
