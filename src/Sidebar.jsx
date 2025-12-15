@@ -50,7 +50,7 @@ const ProfileSection = memo(({ isMobile, isCollapsed, onToggle }) => (
   </div>
 ));
 
-// Memoized Navigation Links Section
+
 const NavigationLinks = memo(({ currentStyles }) => (
   <nav className={currentStyles.nav}>
     <section className={currentStyles.section}>
