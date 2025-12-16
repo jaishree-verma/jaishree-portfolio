@@ -4,7 +4,7 @@
 
 🔗 *Visit Portfolio*: https://jaishree-portfolio-lilac.vercel.app/
 
-## 📦 How to Run Locally
+### 📦 How to Run Locally
 
 ```bash
 git clone https://github.com/jaishreeverma2004/jaishree-portfolio.git
