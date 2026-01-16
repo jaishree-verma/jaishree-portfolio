@@ -7,15 +7,24 @@ import styles from './Resume.module.css';
 const Resume = () => {
   const education = {
     school: "Pranveer Singh Instiute of Technology (PSITK)",
-    degree: "B.Techin Artificial Intelligence & Machine Learning",
+    degree: "B.Tech Artificial Intelligence & Machine Learning",
     location: "Kanpur, UP, India",
     duration: "Oct 2023 - Aug 27",
-    gpa: "7.44 gpa",
+    gpa: "6.8 gpa",
     achievements: [
-      // "4 Star Hackerrank - Python , Java",
-      // "Vice President - Bastion Club PSIT"
+      "Certifications: Google Project Initiation-Coursera, DSA with JAVA-ApnaCollege",
+      "350+ Leetcode Questions for Problem Solving",
+      "5 Star Hackerrank in Python, SQL",
+      "Vice President - The Bastion Club of PSIT",
+      
+
     ]
   };
+  const objective =[
+    {
+      objective: "I am looking for a Software Engineer role where I can work across the full stack and DevOps, building scalable cloud-based applications, automating deployments, and collaborating effectively with cross-functional teams."
+    }
+  ];
 
   const experience = [
     {
@@ -49,11 +58,20 @@ const Resume = () => {
       link: "https://github.com/jaishree-verma/College_Survey",
       live: "https://2t7-major-survey.vercel.app/vote"
     },
+    {
+      title: "CI-CD_Model",
+      subtitle: "Automate Deployment",
+      description: "Packerized ML model using direct CI/CD Pipeline deployed using Docker, GitHub Actions which automates testing and training of model.",
+      tech: "Python, Github Actions",
+      link: "https://github.com/jaishree-verma/CI-CD_ML_Model",
+      
+    },
+
     
   ];
 
   const skills = {
-    technical: "Python, JavaScript, Java, React.js, Node.js, Express.js, HTML/CSS, Tailwind CSS, MongoDB, Render, Git/Github, Vs Code",
+    technical: "Python, JavaScript, Java, React.js, Node.js, Express.js, HTML/CSS, Tailwind CSS, BootStrap, MongoDB, Git/Github, Vs Code, Docker, Grafana, Prometheus, Kubernetes, Jenkins",
     languages: "English (Native)"
   };
 

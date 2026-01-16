@@ -25,9 +25,37 @@ export const TAGS = [
 
 // Sample projects array - fully updated with media descriptions
 export const projects = [
-  // Go Ticket
+  // CI-CD Model
   {
     id: 3,
+    title: 'CI/CD Model',
+    brief: 'Packerized ML model using direct CI/CD Pipeline deployed using Docker, GitHub Actions which automates testing and training of model.',
+    tags: ['Python', 'Git-Hub Actions', 'Docker', 'Pytest','DVC'],
+    skills: [
+      'Pytho',
+      'Docker',
+      'Github Actions',
+    ],
+    thumbnail: '/CI-CD_Model/thumbnail.jpg',
+    startDate: '2025-11',
+    endDate: '2025-11',
+    media: [
+      {
+        type: MEDIA_TYPES.IMAGE,
+        url: '/CI-CD_Model/thumbnail.jpg',
+        caption: 'Github based repository',
+        description: 'Automates ML model training, testing, and deployment using GitHub Actions, Docker, DVC, Pytest, and Python.'
+      },
+      
+    ],
+    links: {
+      github: 'https://github.com/jaishree-verma/CI-CD_ML_Model',
+      // live: 'https://devpost.com/software/lurelore'
+    }
+  },
+  // Go Ticket
+  {
+    id: 5,
     title: 'Go Ticket',
     brief: 'Go Ticket is a full-stack MERN application designed to revolutionize bus travel planning through a sleek, interactive interface and AI-driven automation.',
     tags: ['Web Development', 'AI', '3D Graphics', 'Full Stack', 'MERN'],
@@ -41,7 +69,7 @@ export const projects = [
     ],
     thumbnail: '/Goticket/thumbnail.jpg',
     startDate: '2025-07',
-    endDate: 'Ongoing',
+    endDate: '2026',
     media: [
       {
         type: MEDIA_TYPES.IMAGE,
@@ -67,18 +95,7 @@ export const projects = [
         caption: 'Authorised Signin Page',
         description: 'The Sign-In Page in Go Ticket is designed to offer users a seamless and secure entry point into their personalized travel dashboard.'
       },
-      // {
-      //   type: MEDIA_TYPES.VIDEO,
-      //   youtubeId: 'IiKA0Ij20ZM',
-      //   caption: 'LureLore Demo Video',
-      //   description: 'Quick project demonstration video scrapped together during the last minutes of the hackathon showcasing the core features and functionality of LureLore. Because of this video we nearly missed the deadline!'
-      // },
-      // {
-      //   type: MEDIA_TYPES.VIDEO,
-      //   youtubeId: 'I5dP9mbnx4M',
-      //   caption: 'Winning Presentation at Hack the North',
-      //   description: 'Live recording of our first-place winning presentation in front of 1000+ attendees at Hack the North, demonstrating the complete platform and its impact.'
-      // }
+      
     ],
     links: {
       github: 'https://github.com/jaishree-verma/Go-Ticket',
@@ -89,7 +106,7 @@ export const projects = [
 
   // College Survey
   {
-    id: 2,
+    id: 4,
     title: 'College_Survey',
     brief: 'College Survey is a full-stack MERN application powered by an intelligent Rasa chatbot and Hugging Face NLP. Designed for 250+ Engineering Science students, it helps them explore, compare, and visualize major preferences through natural conversation. With over 95% class participation and 1000+ unique visits, it delivers personalized insights at scale.-stack MERN application enabling 250+ Engineering Science students to track and visualize major preferences, achieving 95% class participation with 1000+ unique visits',
     tags: ['Web Development', 'Full Stack','Mern','Rasa Bot'],
