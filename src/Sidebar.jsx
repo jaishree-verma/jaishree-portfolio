@@ -81,7 +81,7 @@ const NavigationLinks = memo(({ currentStyles }) => (
         <SidebarLink 
           href="/jaishree_verma_resume.pdf"
           icon={FiDownload}
-          text="Download CV"
+          text="Download Resume"
           download
           className={currentStyles.downloadLink}
         />
