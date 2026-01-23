@@ -7,10 +7,10 @@ import styles from './About.module.css';
 const codeLines = [
   { type: 'comment', content: '// Designing, Debugging, Learning ✨' },
   { type: 'code', content: 'const jaishree = {' },
-  { type: 'property', content: '  role: "Frontend Developer,Problem Solver & aspiring Full Stack Developer",' },
+  { type: 'property', content: '  role: "UI/UX Designer, Problem Solver, Full Stack Developer and aspiring Software Developer",' },
   { type: 'array-start', content: '  focus: [' },
   { type: 'array-item', content: '    "Building Ideas",' },
-  { type: 'array-item', content: '    "Challening Myself",' },
+  { type: 'array-item', content: '    "Learning",' },
   { type: 'array-item', content: '    "Acquiring Knowledge"' },
   { type: 'array-end', content: '  ]' },
   { type: 'code', content: '};' }
@@ -19,26 +19,39 @@ const codeLines = [
 // Jaishree's focus areas
 const focusAreas = [
   { icon: <Code2 strokeWidth={1.5} />, title: "Frontend", desc: "Cinematic UI & Animation", color: "var(--accent-success)" },
-  { icon: <Layers strokeWidth={1.5} />, title: "Backend", desc: "APIs & Bot Logic", color: "var(--accent-warning)" },
-  { icon: <Brain strokeWidth={1.5} />, title: "AI/ML", desc: "Intelligent Systems", color: "var(--accent-error)" },
-  { icon: <Cpu strokeWidth={1.5} />, title: "Design", desc: "Playful UX & Branding", color: "var(--primary)" }
+  { icon: <Layers strokeWidth={1.5} />, title: "Backend", desc: "APIs", color: "var(--accent-warning)" },
+  // { icon: <Brain strokeWidth={1.5} />, title: "AI/ML", desc: "Intelligent Systems", color: "var(--accent-error)" },
+  { icon: <Cpu strokeWidth={1.5} />, title: "Design", desc: "Playful UX & Branding", color: "var(--primary)" },
+  { icon: <Cpu strokeWidth={1.5} />, title: "DevOps & Cloud", desc: "DevOps tools & cloud technologies", color: "var(--primary)" },
 ];
 
 // Jaishree's skill stack
 const skills = [
   { name: "JavaScript", category: "languages", color: "var(--primary)" },
   { name: "React", category: "frontend", color: "var(--accent-success)" },
-  { name: "CSS Modules", category: "frontend", color: "var(--accent-success)" },
-  { name: "Java", category: "lamguages", color: "var(--accent-success)" },
+  { name: "CSS", category: "frontend", color: "var(--accent-success)" },
+  { name: "BootStrap", category: "frontend", color: "var(--accent-success)" },
+  { name: "Tailwind", category: "frontend", color: "var(--accent-success)" },
+  { name: "Java", category: "languages", color: "var(--accent-success)" },
   { name: "Python", category: "languages", color: "var(--primary)" },
-  { name: "Rasa", category: "bot", color: "var(--accent-warning)" },
-  { name: "MongoDB", category: "database", color: "var(--accent-error)" },
+  { name: "MySQL", category: "Database", color: "var(--accent-warning)" },
+  { name: "MongoDB", category: "Database", color: "var(--accent-error)" },
   { name: "Git/GitHub", category: "devops", color: "var(--secondary-dark)" },
+  { name: "GitHub Actions", category: "devops", color: "var(--secondary-dark)" },
   { name: "Figma", category: "UX", color: "var(--secondary-dark)" },
   { name: "Tailwind", category: "frontend", color: "var(--accent-warning)" },
   { name: "Node.js", category: "backend", color: "var(--primary)" },
+  { name: "Express.js", category: "backend", color: "var(--primary)" },
   { name: "VS Code", category: "tool", color: "var(--primary)" },
-  { name: "Vercel", category: "Deploy", color: "var(--primary)" }
+  { name: "Vercel", category: "Deploy", color: "var(--primary)" },
+  { name: "Docker", category: "DevOps & Cloud", color: "var(--primary)" },
+  { name: "Kubernetes", category: "DevOps & Cloud", color: "var(--primary)" },
+  { name: "Grafana", category: "DevOps & Cloud", color: "var(--primary)" },
+  { name: "Prometheus", category: "DevOps & Cloud", color: "var(--primary)" },
+  { name: "Jenkins", category: "DevOps & Cloud", color: "var(--primary)" },
+  { name: "DBMS", category: "Core", color: "var(--primary)" },
+  { name: "OOPS", category: "Core", color: "var(--primary)" },
+  { name: "Computer Networks", category: "Core", color: "var(--primary)" },
 ];
 
 // Terminal header
