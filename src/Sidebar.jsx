@@ -27,7 +27,7 @@ const ProfileSection = memo(({ isMobile, isCollapsed, onToggle }) => (
     <div className={isMobile ? mobileStyles.profileInfo : styles.profileInfo}>
       <div className={isMobile ? mobileStyles.avatarContainer : styles.avatarContainer}>
         <div className={isMobile ? mobileStyles.avatarWrapper : styles.avatarWrapper}>
-          <img src="/profile.jpg" alt="Jaishree Verma" className={isMobile ? mobileStyles.avatarImg : styles.avatarImg} />
+          <img src="/profile.png" alt="Jaishree Verma" className={isMobile ? mobileStyles.avatarImg : styles.avatarImg} />
         </div>
       </div>
       <div className={isMobile ? mobileStyles.profileText : styles.profileText}>
