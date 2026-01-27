@@ -9,7 +9,7 @@ import About from './About'
 import Sidebar from './Sidebar'
 import SidebarMobile from './SidebarMobile'
 import Projects from './Projects/Projects'
-import Resume from './Resume'
+// import Resume from './Resume'
 import Contact from './Contact'
 import LightBackground from './Backgrounds/LightBackground'
 import DarkBackground from './Backgrounds/DarkBackground'
@@ -88,14 +88,14 @@ const AppContent = () => {
             </PageLayout>
           }
         />
-        <Route
+        {/* <Route
           path="/resume"
           element={
             <PageLayout>
               <Resume />
             </PageLayout>
           }
-        />
+        /> */}
         <Route
           path="/contact"
           element={

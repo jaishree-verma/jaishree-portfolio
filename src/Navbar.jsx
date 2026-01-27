@@ -13,7 +13,7 @@ const Navbar = () => {
   const navItems = [
     { path: '/about', label: 'About', icon: User },
     { path: '/projects', label: 'Projects', icon: Briefcase },
-    { path: '/resume', label: 'Resume', icon: FileText },
+    // { path: '/resume', label: 'Resume', icon: FileText },
     { path: '/contact', label: 'Contact', icon: Mail }
   ];
 
