@@ -15,7 +15,7 @@ const Contact = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('http://localhost:4000/contact', { // ✅ your backend URL
+      const response = await fetch('http://localhost:4000/contact', { // backend URL
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -48,7 +48,7 @@ const Contact = () => {
               Get in Touch
             </motion.h1>
             <motion.div className={styles.subtitle} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.4 }}>
-              <p>If you're interested in collaboration, have a project in mind, or just want to chat about tech and ideas, I'd love to hear from you!</p>
+              <p>If you're interested in collaboration, have a project in mind, or just want to chat about tech, ideas and designs, I'd love to hear from you!</p>
               <p>Reach out via email at <strong>jaishree.verma.work@gmail.com</strong>.</p>
             </motion.div>
           </div>

@@ -5,13 +5,18 @@ import styles from './About.module.css';
 
 // Jaishree's code snippet
 const codeLines = [
-  { type: 'comment', content: '// Designing, Debugging, Learning ✨' },
+  { type: 'comment', content: '// Learn , Build , Code  ✨' },
   { type: 'code', content: 'const jaishree = {' },
-  { type: 'property', content: '  role: "UI/UX Designer, Problem Solver, Full Stack Developer and aspiring Software Developer",' },
+  { 
+  type: 'property', 
+  content:  `role: "UI/UX Designer, Problem Solver, Full Stack Developer, DevOps Developer and aspiring
+      Software Developer",` 
+},
   { type: 'array-start', content: '  focus: [' },
-  { type: 'array-item', content: '    "Building Ideas",' },
   { type: 'array-item', content: '    "Learning",' },
-  { type: 'array-item', content: '    "Acquiring Knowledge"' },
+  { type: 'array-item', content: '    "Acquiring Knowledge",' },
+  { type: 'array-item', content: '    "Building Ideas, designs and Solutions"' },
+  { type: 'array-item', content: '    "Developing, Testing and Deploying"' },
   { type: 'array-end', content: '  ]' },
   { type: 'code', content: '};' }
 ];
@@ -19,10 +24,10 @@ const codeLines = [
 // Jaishree's focus areas
 const focusAreas = [
   { icon: <Code2 strokeWidth={1.5} />, title: "Frontend", desc: "Cinematic UI & Animation", color: "var(--accent-success)" },
-  { icon: <Layers strokeWidth={1.5} />, title: "Backend", desc: "APIs", color: "var(--accent-warning)" },
+  { icon: <Layers strokeWidth={1.5} />, title: "Backend", desc: "Servers, API's, development and deployment", color: "var(--accent-warning)" },
   // { icon: <Brain strokeWidth={1.5} />, title: "AI/ML", desc: "Intelligent Systems", color: "var(--accent-error)" },
   { icon: <Cpu strokeWidth={1.5} />, title: "Design", desc: "Playful UX & Branding", color: "var(--primary)" },
-  { icon: <Cpu strokeWidth={1.5} />, title: "DevOps & Cloud", desc: "DevOps tools & cloud technologies", color: "var(--primary)" },
+  { icon: <Cpu strokeWidth={1.5} />, title: "DevOps & Cloud", desc: "DevOps tools & Cloud technologies", color: "var(--primary)" },
 ];
 
 // Jaishree's skill stack
@@ -51,7 +56,7 @@ const skills = [
   { name: "Jenkins", category: "DevOps & Cloud", color: "var(--primary)" },
   { name: "DBMS", category: "Core", color: "var(--primary)" },
   { name: "OOPS", category: "Core", color: "var(--primary)" },
-  { name: "Computer Networks", category: "Core", color: "var(--primary)" },
+  // { name: "Computer Networks", category: "Core", color: "var(--primary)" },
 ];
 
 // Terminal header
