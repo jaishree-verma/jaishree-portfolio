@@ -37,8 +37,8 @@ export const projects = [
       'Github Actions',
     ],
     thumbnail: '/CI-CD_Model/thumbnail.jpg',
-    startDate: '2025-11',
-    endDate: '2025-11',
+    startDate: '2025',
+    endDate: '2025',
     media: [
       {
         type: MEDIA_TYPES.IMAGE,
@@ -68,8 +68,8 @@ export const projects = [
       'RESTful APIs'
     ],
     thumbnail: '/Goticket/thumbnail.jpg',
-    startDate: '2025-07',
-    endDate: '2026',
+    startDate: '2025',
+    endDate: '2025',
     media: [
       {
         type: MEDIA_TYPES.IMAGE,
@@ -106,7 +106,7 @@ export const projects = [
 
   // College Survey
   {
-    id: 4,
+    id: 2,
     title: 'College_Survey',
     brief: 'College Survey is a full-stack MERN application powered by an intelligent Rasa chatbot and Hugging Face NLP. Designed for 250+ Engineering Science students, it helps them explore, compare, and visualize major preferences through natural conversation. With over 95% class participation and 1000+ unique visits, it delivers personalized insights at scale.-stack MERN application enabling 250+ Engineering Science students to track and visualize major preferences, achieving 95% class participation with 1000+ unique visits',
     tags: ['Web Development', 'Full Stack','Mern','Rasa Bot'],
@@ -119,8 +119,8 @@ export const projects = [
       'Frontend Development'
     ],      
     thumbnail: '/college_survey/thumbnail.png',
-    startDate: '2024-10',
-    endDate: '2024-12',
+    startDate: '2024',
+    endDate: '2024',
     media: [
       {
         type: MEDIA_TYPES.IMAGE,
@@ -157,8 +157,8 @@ export const projects = [
     tags: ['Web Dev', 'Design'],
     skills: ['HTML', 'CSS', 'Vanilla JavaScript', 'particles.js', 'FancyBox'],
     thumbnail: '/aesthetic_stopwatch/1.png',
-    startDate: '2025-09',
-    endDate: '2025-10',
+    startDate: '2024',
+    endDate: '2024',
     media: [
       {
         type: MEDIA_TYPES.IMAGE,
@@ -179,14 +179,14 @@ export const projects = [
     },
   },
   {
-    id: 2,
+    id: 4,
     title: 'Docker Packagerised ML Model',
     brief: 'Built a model packaging with Docker using Fast API & Stream lit for predictions using iris dataset',
     tags: ['Python','Streamlit','Docker','ML Model','Web Dev'],
     skills: ['HTML', 'CSS', 'Vanilla JavaScript', 'Python','Docker','ML Model'],
     thumbnail: '/docker_model/thumbnail.png',
-    startDate: '2025-09',
-    endDate: '2025-11',
+    startDate: '2025',
+    endDate: '2025',
     media:[
       {
         type: MEDIA_TYPES.IMAGE,

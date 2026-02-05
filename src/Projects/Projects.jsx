@@ -16,7 +16,7 @@ const ProjectCard = memo(({ project, onClick }) => {
 
   const formatDate = (startDate, endDate) => {
     const formatToMonth = (date) => {
-      return date ? dayjs(date).format('MMM YYYY') : '';
+      return date ? dayjs(date).format('YYYY') : '';
     };
 
     // Handle missing dates

@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
-import nodemailer from "nodemailer";
 import dotenv from "dotenv";
+import sgMail from "@sendgrid/mail";
 
 dotenv.config();
 const app = express();
@@ -9,7 +9,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Contact route
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+
 app.post("/contact", async (req, res) => {
   const { name, email, message } = req.body;
 
@@ -18,17 +19,9 @@ app.post("/contact", async (req, res) => {
   }
 
   try {
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: process.env.EMAIL_USER, // your Gmail
-        pass: process.env.EMAIL_PASS, // app password
-      },
-    });
-
-    await transporter.sendMail({
-      from: email,
-      to: process.env.EMAIL_USER, // your inbox
+    await sgMail.send({
+      to: process.env.EMAIL_TO, // your inbox
+      from: process.env.EMAIL_FROM, // verified sender
       subject: `New message from ${name}`,
       text: `Email: ${email}\n\nMessage:\n${message}`,
     });
@@ -40,4 +33,4 @@ app.post("/contact", async (req, res) => {
   }
 });
 
-app.listen(4000, () => console.log("Server running on port 4000"));
+app.listen(4000, () => console.log("✅ Backend running on port 4000"));
