@@ -82,7 +82,7 @@ const NavigationLinks = memo(({ currentStyles }) => (
           href="/resume.pdf"
           icon={FiDownload}
           text="Download Resume"
-          download
+          download="Jaishree-Verma-Resume.pdf"
           className={currentStyles.downloadLink}
         />
       </ul>
