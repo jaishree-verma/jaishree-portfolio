@@ -15,7 +15,7 @@ const Contact = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('http://localhost:4000/contact', { // backend URL
+      const response = await fetch('/api/contact', { // backend URL
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
