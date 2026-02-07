@@ -2,7 +2,6 @@ import React, { useState, useEffect, memo, useCallback } from 'react';
 import { FiGithub, FiLinkedin, FiMail, FiYoutube, FiDownload, FiMapPin, FiChevronDown } from 'react-icons/fi';
 import styles from './Sidebar.module.css';
 import mobileStyles from './SidebarMobile.module.css';
-
 // Memoized Link Component
 const SidebarLink = memo(({ href, icon: Icon, text, download, className }) => (
   <li className={styles.linkItem}>
@@ -11,7 +10,7 @@ const SidebarLink = memo(({ href, icon: Icon, text, download, className }) => (
       target={href.startsWith('http') ? "_blank" : undefined}
       rel={href.startsWith('http') ? "noopener noreferrer" : undefined}
       className={`${styles.link} ${className || ''}`}
-      download={download}
+      {...(download ? { download } : {})}   // ✅ ensures download is passed only when provided
     >
       <span className={styles.iconWrapper}>
         <Icon />
@@ -20,6 +19,25 @@ const SidebarLink = memo(({ href, icon: Icon, text, download, className }) => (
     </a>
   </li>
 ));
+
+
+// // Memoized Link Component
+// const SidebarLink = memo(({ href, icon: Icon, text, download, className }) => (
+//   <li className={styles.linkItem}>
+//     <a 
+//       href={href}
+//       target={href.startsWith('http') ? "_blank" : undefined}
+//       rel={href.startsWith('http') ? "noopener noreferrer" : undefined}
+//       className={`${styles.link} ${className || ''}`}
+//       download={download}
+//     >
+//       <span className={styles.iconWrapper}>
+//         <Icon />
+//       </span>
+//       <span className={styles.linkText}>{text}</span>
+//     </a>
+//   </li>
+// ));
 
 // Memoized Profile Section
 const ProfileSection = memo(({ isMobile, isCollapsed, onToggle }) => (
