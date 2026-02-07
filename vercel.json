@@ -1,11 +1,11 @@
 {
   "rewrites": [
     {
-      "source": "/resume.pdf",
-      "destination": "/resume.pdf"
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
     },
     {
-      "source": "/(.*)",
+      "source": "/((?!.*\\.(?:ico|png|jpg|jpeg|svg|pdf|css|js)).*)",
       "destination": "/index.html"
     }
   ]
