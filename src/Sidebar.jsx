@@ -11,7 +11,7 @@ const SidebarLink = memo(({ href, icon: Icon, text, download, className }) => (
       target={href.startsWith('http') ? "_blank" : undefined}
       rel={href.startsWith('http') ? "noopener noreferrer" : undefined}
       className={`${styles.link} ${className || ''}`}
-      download={download}   // ✅ forwards download attribute
+      download={download}   
     >
       <span className={styles.iconWrapper}><Icon /></span>
       <span className={styles.linkText}>{text}</span>
@@ -61,7 +61,7 @@ const NavigationLinks = memo(({ currentStyles }) => (
       <h2 className={currentStyles.sectionHeader}>Resume</h2>
       <ul className={currentStyles.linkList}>
         <SidebarLink 
-          href="/resume.pdf"   // ✅ relative path
+          href="/resume.pdf"   // This is relative path
           icon={FiDownload}
           text="Download Resume"
           download="Jaishree-Verma-Resume.pdf"
