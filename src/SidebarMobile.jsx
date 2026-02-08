@@ -13,7 +13,7 @@ const SidebarMobile = () => {
         <div className={styles.profileContainer}>
           <div className={styles.avatarContainer}>
             <div className={styles.avatarWrapper}>
-              <img src="/profile.jpg" alt="Jaishree Verma" className={styles.avatarImg} />
+              <img src="/profile.png" alt="Jaishree Verma" className={styles.avatarImg} />
             </div>
           </div>
           <div className={styles.profileInfo}>
@@ -85,14 +85,14 @@ const SidebarMobile = () => {
             <ul className={styles.linkList}>
               <li>
                 <a 
-                  href="/Resume.pdf" 
-                  download
+                  href="/resume.pdf" 
+                  download="Jaishree-Verma-Resume.pdf"
                   className={`${styles.link} ${styles.downloadLink}`}
                 >
                   <span className={styles.iconWrapper}>
                     <FiDownload />
                   </span>
-                  <span>Download CV</span>
+                  <span>Download Resume</span>
                 </a>
               </li>
             </ul>
