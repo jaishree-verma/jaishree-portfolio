@@ -1,6 +1,6 @@
 <h1 align="center"> Portfolio - CSS + JavaScript + React + Vite + Mongo </h1>
 
-<p>Live Deployment: https://jaishree-about.vercel.app</p>
+<p>Live Deployment : https://jaishree-about.vercel.app</p>
 
 ## 📦 How to Run Locally
 
