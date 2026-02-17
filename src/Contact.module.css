@@ -3,24 +3,29 @@
   min-height: 100vh;
   display: flex;
   justify-content: center;  
-  align-items: flex-start;  
-  padding-top: 1rem;  
+  /* align-items: flex-start;   */
+  /* padding-top: 1rem;   */
   padding-left: 2rem; 
   padding-right: 2rem;
+  align-items: center; /* centers vertically */ 
+  padding-top: 2rem;
   /* background: #05102e;        */
 }
 
 .contactGrid {
   max-width: 700px;
+  gap: 1rem; /* smaller spacing */ 
+  padding-top: 0.5rem; /* valid unit */ 
+  margin-top: 0;
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  /* gap: 2rem; */
   background: rgba(255,255,255,0.05); 
   border-radius: 1rem;
   padding: 2rem;
   color: #4aa0f7;
-  padding-top: 0.1; margin-top: 0rem;
+  /* padding-top: 0.1; margin-top: 0rem; */
   
 }
 
@@ -71,4 +76,13 @@
 
 .submitButton:hover {
   transform: translateY(-2px);
+}
+.contactGrid.light {
+  background: rgba(0,0,0,0.05);   /* light grey */
+  color: #333;                    /* dark text */
+}
+
+.contactGrid.dark {
+  background: rgba(255,255,255,0.05);
+  color: #4aa0f7;
 }
