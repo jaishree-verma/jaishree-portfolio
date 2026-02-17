@@ -42,7 +42,7 @@ const SidebarMobile = () => {
             <ul className={styles.linkList}>
               <li>
                 <a 
-                  href="/resume.pdf"   // This is relative path
+                  href="/Jaishree_resume.pdf"   // This is relative path
                   download="Jaishree-Verma-Resume.pdf"
                   className={`${styles.link} ${styles.downloadLink}`}
                 >

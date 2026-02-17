@@ -61,7 +61,7 @@ const NavigationLinks = memo(({ currentStyles }) => (
       <h2 className={currentStyles.sectionHeader}>Resume</h2>
       <ul className={currentStyles.linkList}>
         <SidebarLink 
-          href="/resume.pdf"   // This is relative path
+          href="/Jaishree_resume.pdf"   // This is relative path
           icon={FiDownload}
           text="Download Resume"
           download="Jaishree-Verma-Resume.pdf"
