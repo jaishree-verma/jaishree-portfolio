@@ -1,0 +1,274 @@
+/* App.css */
+/* Base Variables (Light Theme) */
+/* App.css color updates */
+:root {
+  /* Core Colors */
+  --bg: #f0f4f8; /* Soft light blue */
+  --text: #1f2937; /* Dark gray for high contrast */
+  --nav-bg: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+  --sidebar-bg: rgba(255, 255, 255, 0.6); /* Frosty effect */
+  --container-bg: rgba(255, 255, 255, 0.6); /* Frosty effect */
+  
+  /* Primary Colors - Cool blue tones for interaction */
+  --primary: #4a90e2; /* Soft blue */
+  --primary-light: #6fb8f5; /* Light blue */
+  --primary-dark: #357ab8; /* Darker blue */
+  --primary-hover: #63a4f9; /* Hover blue */
+  
+  /* Secondary/Gray Colors - Complementary cool tones */
+  --secondary: #5a6a7d; /* Slate gray */
+  --secondary-light: #8fa4b7; /* Light slate */
+  --secondary-dark: #4a5568; /* Dark slate */
+  
+  /* Surface Colors - Light, semi-transparent grays */
+  --surface-0: rgba(255, 255, 255, 0.6); /* Frosty white */
+  --surface-50: rgba(240, 244, 248, 0.6); /* Frosty light blue */
+  --surface-100: rgba(225, 230, 240, 0.6); /* Frosty medium blue */
+  --surface-200: rgba(209, 213, 219, 0.6); /* Frosty gray */
+  
+  /* Interactive States */
+  --hover: rgba(225, 230, 240, 0.6); /* Frosty medium blue */
+  --hover-light: rgba(240, 244, 248, 0.6); /* Frosty light blue */
+  --hover-dark: rgba(209, 213, 219, 0.6); /* Frosty gray */
+  
+  /* Accent Colors */
+  --accent-success: #34d399; /* Emerald green */
+  --accent-warning: #fbbf24; /* Amber yellow */
+  --accent-error: #f87171; /* Light red */
+  
+  /* Dividers and Lines */
+  --divider-color: rgba(209, 213, 219, 0.6); /* Frosty gray */
+  --nav-line-color: rgba(203, 213, 225, 0.6); /* Frosty blue-gray */
+  
+  /* Media Viewer */
+  --media-bg: var(--surface-50);
+  --media-overlay: rgba(15, 23, 42, 0.03);
+  --media-controls-bg: rgba(255, 255, 255, 0.92);
+  --media-controls-border: rgba(15, 23, 42, 0.08);
+  --media-controls-shadow: rgba(15, 23, 42, 0.06);
+  --media-loading-bg: rgba(15, 23, 42, 0.04);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.2);
+  
+  /* Scrollbar Styles */
+  --scrollbar-track-color: #e0e7ff;  /* Light blue-gray background */
+  --scrollbar-thumb-color: #4a90e2;  /* Soft blue color */
+  --scrollbar-thumb-hover-color: #357ab8;  /* Darker blue on hover */
+  
+  --navbar-height: 50px;
+  --transition-duration: 0.3s;
+  --transition-timing: ease;
+  --max-content-width: 1400px;
+}
+
+/* Dark Theme */
+[data-theme='dark'] {
+  /* Core Colors - Dark cool tones */
+  --bg: #121212; /* Near-black */
+  --text: #e0e6ed; /* Light gray for high contrast */
+  --nav-bg: rgba(30, 30, 30, 0.7); /* Semi-transparent dark gray */
+  --sidebar-bg: rgba(45, 45, 45, 0.6); /* Frosty dark gray */
+  --container-bg: rgba(45, 45, 45, 0.6); /* Frosty dark gray */
+  
+  /* Primary Colors - Cool blue tones */
+  --primary: #4a90e2; /* Soft blue */
+  --primary-light: #6fb8f5; /* Light blue */
+  --primary-dark: #357ab8; /* Darker blue */
+  --primary-hover: #63a4f9; /* Hover blue */
+  
+  /* Secondary/Gray Colors */
+  --secondary: #a0aec0; /* Cool gray */
+  --secondary-light: #cbd5e0; /* Light gray */
+  --secondary-dark: #718096; /* Dark gray */
+  
+  /* Surface Colors - Dark, semi-transparent grays */
+  --surface-0: rgba(45, 45, 45, 0.6); /* Frosty dark gray */
+  --surface-50: rgba(51, 51, 51, 0.6); /* Frosty darker gray */
+  --surface-100: rgba(45, 45, 45, 0.6); /* Frosty dark gray */
+  --surface-200: rgba(64, 64, 64, 0.6); /* Frosty medium dark gray */
+  
+  /* Interactive States */
+  --hover: rgba(45, 45, 45, 0.6); /* Frosty dark gray */
+  --hover-light: rgba(64, 64, 64, 0.6); /* Frosty medium dark gray */
+  --hover-dark: rgba(38, 38, 38, 0.6); /* Frosty darker gray */
+  
+  /* Accent Colors */
+  --accent-success: #34d399; /* Emerald green */
+  --accent-warning: #fbbf24; /* Amber yellow */
+  --accent-error: #f87171; /* Light red */
+  
+  /* Dividers and Lines */
+  --divider-color: rgba(64, 64, 64, 0.6); /* Frosty medium dark gray */
+  --nav-line-color: rgba(77, 77, 77, 0.6); /* Frosty dark gray */
+  
+  /* Media Viewer */
+  --media-bg: var(--surface-50);
+  --media-overlay: rgba(249, 250, 251, 0.03);
+  --media-controls-bg: rgba(45, 45, 45, 0.95);
+  --media-controls-border: rgba(249, 250, 251, 0.1);
+  --media-controls-shadow: rgba(0, 0, 0, 0.25);
+  --media-loading-bg: rgba(249, 250, 251, 0.04);
+
+  /* Shadows - Dark mode */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.4);
+  
+  /* Scrollbar Styles */
+  --scrollbar-track-color: #2d3748;  /* Dark blue-gray background */
+  --scrollbar-thumb-color: #4a90e2;  /* Soft blue color */
+  --scrollbar-thumb-hover-color: #357ab8;  /* Darker blue on hover */
+  
+  /* Adjust max content width for dark theme if needed */
+  --max-content-width: 1400px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  transition: background-color var(--transition-duration) var(--transition-timing),
+              color var(--transition-duration) var(--transition-timing);
+  overflow-x: hidden;
+}
+
+.app {
+  min-height: 100vh;
+  position: relative;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: var(--bg);
+}
+
+/* Content Layout */
+.content-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  padding: 1rem;
+  padding-top: calc(var(--navbar-height) + 1rem);
+  height: calc(100vh - var(--navbar-height) - 2rem);
+  width: 90%;
+  max-width: var(--max-content-width);
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  background: var(--container-bg);
+  border-radius: 15px;
+  box-shadow: var(--shadow-md);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content-inner {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 8px;
+  margin-right: -0.5rem;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 2000px) {
+  :root, [data-theme='dark'] {
+    --max-content-width: 1500px;
+  }
+}
+
+@media (max-width: 1800px) {
+  :root, [data-theme='dark'] {
+    --max-content-width: 1400px;
+  }
+}
+
+@media (max-width: 1500px) {
+  :root, [data-theme='dark'] {
+    --max-content-width: 1200px;
+  }
+}
+
+@media (max-width: 1300px) {
+  :root, [data-theme='dark'] {
+    --max-content-width: 1150px;
+  }
+  
+  .content-wrapper {
+    width: 95%;
+    padding: 0.75rem;
+    padding-top: calc(var(--navbar-height) + 1rem);
+  }
+}
+
+@media (max-width: 992px) {  
+  .app {
+    justify-content: flex-start;
+  }
+  .content-wrapper {
+    width: 95%;
+    flex-direction: column;
+    height: auto;
+    min-height: calc(100vh - var(--navbar-height) - 2rem);
+    padding: 0.75rem;
+    padding-top: calc(var(--navbar-height) + 1rem);
+    gap: 1rem;
+  }
+
+
+
+  .main-content {
+    height: auto;
+    min-height: 60vh;
+  }
+}
+
+/* custom scrollbar styles */
+
+::-webkit-scrollbar {
+  width: 4px; /* Increased width for better visibility */
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-track-color); /* Responsive to theme */
+  border-radius: 10px; /* Rounded edges for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-color); /* Responsive to theme */
+  border-radius: 10px; /* Rounded edges for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-thumb-hover-color); /* Responsive to theme */
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
