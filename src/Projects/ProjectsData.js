@@ -99,7 +99,7 @@ export const projects = [
     ],
     links: {
       github: 'https://github.com/jaishree-verma/Go-Ticket',
-      // live: 'https://devpost.com/software/lurelore'
+      live: 'https://goticket-bbzz.onrender.com/'
     }
   },
 
@@ -149,7 +149,7 @@ export const projects = [
     ],
     links: {
       github: 'https://github.com/jaishree-verma/College_Survey',
-      // live: 'https://2t7-major-survey.vercel.app/results'
+      live: 'https://collegesurvey2025-bice.vercel.app/'
     },
   },
     
