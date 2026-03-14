@@ -9,8 +9,8 @@ const codeLines = [
   { type: 'code', content: 'const jaishree = {' },
   { 
   type: 'property', 
-  content:  `role: "UI/UX Designer, Problem Solver, Full Stack Developer, DevOps Developer and aspiring
-      Software Developer",` 
+  content:  `role: "AI Based Coder, UI/UX Designer, Problem Solver, MERN Stack Developer, DevOps Developer 
+       and aspiring Software Developer",` 
 },
   { type: 'array-start', content: '  focus: [' },
   { type: 'array-item', content: '    "Learning",' },
@@ -23,10 +23,10 @@ const codeLines = [
 
 // Jaishree's focus areas
 const focusAreas = [
-  { icon: <Code2 strokeWidth={1.5} />, title: "Frontend", desc: "Cinematic UI & Animation", color: "var(--accent-success)" },
-  { icon: <Layers strokeWidth={1.5} />, title: "Backend", desc: "Servers, API's, development and deployment", color: "var(--accent-warning)" },
+  { icon: <Code2 strokeWidth={1.5} />, title: "Full Stack", desc: "Cinematic UI, Animation,Servers, API's, development and deployment ", color: "var(--accent-success)" },
+  { icon: <Layers strokeWidth={1.5} />, title: "AI Based Coder", desc: "AI-powered coding assistance", color: "var(--accent-warning)" },
   // { icon: <Brain strokeWidth={1.5} />, title: "AI/ML", desc: "Intelligent Systems", color: "var(--accent-error)" },
-  { icon: <Cpu strokeWidth={1.5} />, title: "Design", desc: "Playful UX & Branding", color: "var(--primary)" },
+  { icon: <Cpu strokeWidth={1.5} />, title: "Design & Development", desc: "Playful UX & Branding", color: "var(--primary)" },
   { icon: <Cpu strokeWidth={1.5} />, title: "DevOps & Cloud", desc: "DevOps tools & Cloud technologies", color: "var(--primary)" },
 ];
 
@@ -56,6 +56,8 @@ const skills = [
   { name: "Jenkins", category: "DevOps & Cloud", color: "var(--primary)" },
   { name: "DBMS", category: "Core", color: "var(--primary)" },
   { name: "OOPS", category: "Core", color: "var(--primary)" },
+  { name: "Cursor AI", category: "AI Tool", color: "var(--primary)" },
+  { name: "Antigravity", category: "AI Tool", color: "var(--primary)" },
   // { name: "Computer Networks", category: "Core", color: "var(--primary)" },
 ];
 
