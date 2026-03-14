@@ -119,7 +119,7 @@ export const projects = [
       'Frontend Development'
     ],      
     thumbnail: '/college_survey/thumbnail.png',
-    startDate: '2024',
+    startDate: '2025',
     endDate: '2025',
     media: [
       {
