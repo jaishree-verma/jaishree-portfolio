@@ -108,8 +108,8 @@ export const projects = [
   {
     id: 2,
     title: 'College_Survey',
-    brief: 'College Survey is a full-stack MERN application powered by an intelligent Rasa chatbot and Hugging Face NLP. Designed for 250+ Engineering Science students, it helps them explore, compare, and visualize major preferences through natural conversation. With over 95% class participation and 1000+ unique visits, it delivers personalized insights at scale.-stack MERN application enabling 250+ Engineering Science students to track and visualize major preferences, achieving 95% class participation with 1000+ unique visits',
-    tags: ['Web Development', 'Full Stack','Mern','Rasa Bot'],
+    brief: 'College Survey is a full-stack MERN application especially designed for 5000+ bachelor students. It helps them to ask their queries related to college management with immediate response. With over 95% class participation and 1000+ unique visits, it delivers personalized insights at scale.',
+    tags: ['Web Development', 'Full Stack','Mern',],
     skills: [
       'React',
       'MongoDB',
@@ -120,25 +120,31 @@ export const projects = [
     ],      
     thumbnail: '/college_survey/thumbnail.png',
     startDate: '2024',
-    endDate: '2024',
+    endDate: '2025',
     media: [
       {
         type: MEDIA_TYPES.IMAGE,
         url: '/college_survey/1.png',
         caption: 'Landing Page',
-        description: 'The landing page offers a clean, welcoming interface where students begin their journey with the College Survey chatbot. Designed with React and Tailwind CSS.'
+        description: 'The landing page offers a sleek modern UI to understand what exactly the College Survey platform is about, and how it can help students make informed decisions about their academic paths by offering personalized insights into branch preferences, hostel facilities, placement records, and more.'
       },
       {
         type: MEDIA_TYPES.IMAGE,
         url: '/college_survey/2.png',
-        caption: 'AI chatbot ',
-        description:'The College Survey chatbot is a conversational assistant built with Rasa and enhanced by Hugging Face NLP models to deliver intelligent, context-aware responses. It guides students through questions about college life - like hostel facilities, placement records, branch preferences, and scholarships - using natural language.'
+        caption: 'Query Page ',
+        description:'This page offers to ask query related to college management with immediate response through email.'
       },
       {
         type: MEDIA_TYPES.IMAGE,
         url: '/college_survey/3.png',
+        caption: 'Results Page',
+        description: 'This page offers real time results within 2 secs. With every new request recieved and response sent , the results are updated in real time, giving students the most up to date insights into branch preferences, hostel facilities, placement records, and more.'
+      },
+      {
+        type: MEDIA_TYPES.IMAGE,
+        url: '/college_survey/4.png',
         caption: 'About Page',
-        description: 'The About Page introduces users to the purpose and impact of the College Survey platform. It highlights how the AI-powered chatbot helps students make informed decisions about their academic paths by offering personalized insights into branch preferences, hostel facilities, placement records, and more.'
+        description: 'The About Page helps students to understand the motivation for this project along with contact us option to get in touch wuith the developers for any query or suggestion related to the project. It also offers a contact information about college management for students to get in touch with them for any query related to college management.'
       }
     ],
     links: {
